@@ -12,7 +12,7 @@ with st.sidebar:
             )
         query = st.sidebar.text_area(
             label="Ask me about the video?",
-            max_chars=50,
+            max_chars=100,
             key="query"
             )
         openai_api_key = st.sidebar.text_input(
