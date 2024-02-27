@@ -13,5 +13,5 @@ pip install -r requirements.txt
 Run the streamlit app:
 
 ```bash
-streamlit run main.py
+streamlit run youtube_chat.py
 ```
